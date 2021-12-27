@@ -9,6 +9,10 @@ void main()
     int colume = 1, line = 1, rows = 5;
     printf("how many rows do you want?\n");
     scanf("%d", &rows);
+    while (rows<=0)
+    {
+    printf("WRONG WRONG!!");
+    }
     printf("ok\n");
     for (line = 1; line <= rows; line++)
     {
